@@ -45,6 +45,9 @@ exports.writePackage = function (dir, cb) {
         "target": [
           "squirrel"
         ]
+      },
+      "directories": {
+        "output": "dist-electron"
       }
     }
   }
