@@ -101,8 +101,8 @@ exports.writeHtml = function (dir, cb) {
       <head>
         <meta charset="utf-8">
         <meta content="width=device-width,initial-scale=1" name="viewport">
-        <link rel="preload" as="style" href="http://localhost:8080/bundle.css" onload="this.rel='stylesheet'">
-        <script defer src="http://localhost:8080/bundle.js"></script>
+        <link rel="preload" as="style" href="./dist/bundle.css" onload="this.rel='stylesheet'">
+        <script defer src="./dist/bundle.js"></script>
       </head>
       <body></body>
     </html>
